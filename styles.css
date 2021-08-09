@@ -1,0 +1,123 @@
+.Formulario{
+    Height: 450px;
+    width: 1000px;
+    display: flex;
+    border:1px solid lightgray;
+    border-right: none;
+    border-radius: 30px;    
+    overflow:hidden;
+}
+/*Aca parte el sector izquierdo*/
+.Left{
+    width: 50%;
+    height: 100%
+}
+.Left .Login {   /*Aca parte el Login*/ 
+    margin-left:40%;
+    margin-right: 0px;   
+    font-weight: bold;
+    padding-top:10px;
+}
+.Left .Icons{ /*Aca parten los iconos de redes sociales*/
+    color:black;
+    padding-top:20px;
+    text-align: center; 
+    padding-left:160px;
+    display: flex;
+}
+.Left .Icons #fb{
+    width: 45px;
+    height: 45px;        
+    border:1px solid black;
+    border-radius: 50%; 
+    line-height: 45px;      
+}
+.Left .Icons #fb:hover{
+    color:blue;
+}
+.Left .Icons #tw{
+    width: 45px;
+    height: 45px;
+    border:1px solid black;
+    border-radius: 50%;
+    line-height: 45px;     
+}
+.Left .Icons #tw:hover{
+    color:lightblue;
+}
+.Left .Icons i{ /*Detalles de los iconos*/
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.Left .Account{ /*Aca parten las casillas para ingresar datos*/
+    padding-top:25px;
+}
+.Left .Account #Info{
+    margin-bottom: 5px;
+    padding-left:180px;
+}
+.Left .Account #Email{
+    Width:55%;
+    height:28px;
+    padding-left: 5px;
+    display:inline-block;
+    margin-left:100px;
+    margin-bottom:10px; 
+    background-color: #ececec; 
+    border:none;
+}
+.Left .Account #Password{
+    Width:55%;
+    height:28px;
+    padding-left: 5px;
+    display:inline-block;
+    margin-left:100px;   
+    background-color: #ececec; 
+    border:none; 
+}
+.Left .Button{ /*Aca parte la botonera*/
+    padding-top:10px;
+}
+.Left .Button #forgot{
+    padding-left:170px;
+}
+.Left .Button #forgot:hover{
+    text-decoration:underline;
+    color:blue;
+}
+.Left .Button #Log_in{
+    margin-left:175px;
+    color:white;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border:none;
+    background-color: #fc4c2e;
+}
+.Left .Button #Log_in:hover{
+    background-color: blue;
+}
+/*Aca parte el sector derecho*/
+.Right{
+    width: 50%;
+    height: 100%;
+    background-color:  #FB445B;
+}
+.Right .Header{
+    color:white;
+    padding-top:90px;
+    padding-left:80px;
+    padding-right:80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+.Right .Content{
+    color:white;
+    padding-left:120px;
+    padding-right:120px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align:center;
+}
